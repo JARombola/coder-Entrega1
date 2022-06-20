@@ -1,0 +1,36 @@
+<div class="d-flex border-end border-primary border-2 shadow-lg p-3 mb-5 bg-body" id="menuLateral" >
+    <ul ngbNav #nav="ngbNav" class="nav-pills" orientation="vertical">
+      <li ngbNavItem="top">
+        <a ngbNavLink>TOP</a>
+        <!-- <ng-template ngbNavContent>
+          <p>TOP</p>
+        </ng-template> -->
+      </li>
+      <li ngbNavItem="Mid">
+        <a ngbNavLink>MID</a>
+        <!-- <ng-template ngbNavContent>
+          <p>MID</p>
+        </ng-template> -->
+      </li>
+      <li ngbNavItem="Adc">
+        <a ngbNavLink>ADC</a>
+        <!-- <ng-template ngbNavContent>
+          <p>ADC.</p>
+        </ng-template> -->
+      </li>
+      <li ngbNavItem="Sup">
+        <a ngbNavLink>SUP</a>
+        <!-- <ng-template ngbNavContent>
+          <p>SUP.</p>
+        </ng-template> -->
+      </li>
+      <li ngbNavItem="Jg">
+        <a ngbNavLink>JG</a>
+        <!-- <ng-template ngbNavContent>
+          <p>JG.</p>
+        </ng-template> -->
+      </li>
+    </ul>
+  
+    <div [ngbNavOutlet]="nav" class="ms-4"></div>
+  </div>

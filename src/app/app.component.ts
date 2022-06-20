@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'personajes';
+  champList: string[] = ['sett', 'yasuo', 'viego', 'katarina', 'Evelynn', 'irelia', 'morgana', 'shaco', 'vayne', 'yuumi'];
 }
+
+
+
